@@ -1,0 +1,22 @@
+{
+  "armcc_bin": "D:\\Keil5\\ARM\\ARMCC\\bin",
+  "cpu": "Cortex-M4.fp",
+  "includes": [
+    "application/hall-keyboard/inc",
+    "application/common",
+    "projects/chip_type_1/bsp/hall-keyboard/inc"
+  ],
+  "libs": [
+    "projects/chip_type_1/lib/lib_app.lib",
+    "projects/chip_type_1/lib/lib_platform.lib"
+  ],
+  "scatter": "link.sct",
+  "keep": [
+    "Reset_Handler",
+    "__Vectors"
+  ],
+  "source_dirs": [
+    "application/hall-keyboard/src"
+  ],
+  "exclude": []
+}
